@@ -1,28 +1,5 @@
-// import logo from './logo.svg';
 import './App.css';
 import * as React from 'react';
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header> */}
-//     </div>
-//   );
-// }
-
-// export default App;
 import { Amplify, Storage } from 'aws-amplify';
 
 import { Authenticator } from '@aws-amplify/ui-react';
@@ -37,33 +14,6 @@ import PrimarySearchAppBar from '../src/Menu';
 
 
 Amplify.configure(awsExports);
-
-// export default function App() {
-//   return (
-//     <Authenticator>
-//       {({ signOut, user }) => {
-//         return (
-//           <main>
-//             <h1 className='hello'>Hello {user.attributes.family_name}</h1>
-//             <button onClick={signOut}>Sign out</button>
-//             <input
-//               type="file"
-//               onChange={async e => {
-//                 const file = e.target.files[0];
-//                 const result = await Storage.put(file.name, file);
-//                 console.log(result);
-//                 console.log(e.target.files);
-//               }}
-//               onClick={e => console.log(e)}
-//             />
-//           </main>
-//         )
-//       }}
-//     </Authenticator>
-
-
-//   );
-// }
 
 
 const formFields = {

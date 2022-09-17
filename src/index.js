@@ -11,7 +11,7 @@ root.render(
     <><div style={
         {
             height: '100vh',
-            backgroundImage: "url(http://localhost:3000/bg.jpg)",
+            backgroundImage: 'url(/bg.jpg)',
             backgroundRepeat: false,
             backgroundSize: '100%,100%', 
             
