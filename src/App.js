@@ -32,7 +32,7 @@ import awsExports from './aws-exports';
 import { ThemeProvider } from '@aws-amplify/ui-react';
 // import { Text, useTheme, View, Image, Heading, Button, useAuthenticator, Radio, RadioGroupField, CheckboxField } from '@aws-amplify/ui-react';
 import { useAuthenticator, Radio, RadioGroupField, CheckboxField } from '@aws-amplify/ui-react';
-import PrimarySearchAppBar from './Menu';
+import PrimarySearchAppBar from '../src/Menu';
 
 
 
