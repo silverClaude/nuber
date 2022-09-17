@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import logo from './logo.png';
+
 //import PrimarySearchAppBar from './Menu'
 
 
